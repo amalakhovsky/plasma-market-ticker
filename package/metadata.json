@@ -1,0 +1,25 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "zayronxio",
+                "Email": "adolfo@librepixels.com"
+            },
+            {
+                "Name": "Andrey Malakhovsky"
+            }
+        ],
+        "Name": "Market Ticker",
+        "Id": "org.kde.plasma.marketticker",
+        "Description": "Crypto (CoinGecko) and stock/ETF (Yahoo Finance) prices in the panel, with a small up/down trend marker",
+        "Category": "Utilities",
+        "Icon": "view-currency-list",
+        "EnabledByDefault": true,
+        "License": "GPL-3.0-or-later",
+        "Version": "1.0",
+        "Website": "https://github.com/amalakhovsky/plasma-market-ticker"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml"
+}
